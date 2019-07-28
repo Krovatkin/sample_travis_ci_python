@@ -2,7 +2,11 @@ language: python
 python:
   - "3.6"
 
+branches:
+  only:
+  - master
+
 # command to run tests
 script:
   - python -m  tests._tests
-
+  
