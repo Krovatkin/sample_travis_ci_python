@@ -4,9 +4,8 @@ python:
 
 branches:
   only:
-  - master
+  - origin/master
 
 # command to run tests
 script:
   - python -m  tests._tests
-  
